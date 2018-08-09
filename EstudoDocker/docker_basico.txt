@@ -1,0 +1,32 @@
+Primeiro passo: 
+
+apos ter o docker instado .
+
+Pegue uma imagem do repositorio.
+
+comando-> docker pull php:7.0-apache
+
+check as imagens instaladas na maquina: 
+ docker images
+
+
+criando um container a patir da imagem 
+
+docker run -p  9090:80 <numero porta  apontando para a 80 > -v <informa que o folder local aponta pra pasta do servidor>  "$PWD":/var/www/html --name<container> imagem que ele vai usar 
+
+resumo do que foi dito acima:
+
+docker run -p 9090:80 -v "$PWD":/var/www/html --name=servidorPHP7.0 php:7.0-apache
+
+checando se o container foi criado: docker ps 
+
+docker ps -a lista todos so containers criados. 
+
+rodando um container especifico  docker start <nome> 
+
+entrando na maquina 
+
+docker exec -t -i servidorPHP7.0 /bin/bash
+
+
+
