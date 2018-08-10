@@ -11,7 +11,7 @@ Containers docker APACHE, PHP e MYSQL.
 
 5 - Faça um clone do projeto dentro da pasta www gerada pelo docker-compose.yml.  
 
-6 - Verifique se ouve sucesso na montagem rode  docker ps (listagem dos container ativos)
+6 - Verifique se houve sucesso na montagem rode  docker ps (listagem dos container ativos)
 
 8 - configuracao workbench ou ferramenta de visao de banco dados: 
 
