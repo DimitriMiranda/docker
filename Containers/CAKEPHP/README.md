@@ -21,7 +21,7 @@ Containers docker APACHE, PHP e MYSQL.
 
 9 - configuracao aplicaçao para enxergar o banco
 
-  -  O servidor web visualiza o banco usando o nome db. nao configurar a aplicacao usando localhost
+  -  O servidor web visualiza o banco usando o nome db. nao configurar a aplicacao usando localhost. \n
      'depends_on: - db' essa linha no docker-compose e um link para a imagem do mysql.
      O endereco db representa localhost para nosso container web.    
  
